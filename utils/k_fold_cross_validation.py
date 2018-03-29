@@ -1,5 +1,5 @@
 import numpy as np
-import mlp_backprop_momentum as mlp
+import utils.mlp_backprop_momentum as mlp
 
 def split_dataset(dataset, n_parts=5):
     n_rows = dataset.shape[0]
